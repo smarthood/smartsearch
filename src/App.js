@@ -11,7 +11,7 @@ function App() {
     setInput(e.target.value)
   }
   const search =()=>{
-    if(input==""){
+    if(input===""){
       alert("Invalid input")
     }
     else{
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
      <div className="search_bar">
-       <input type="text" placeholder='search here...' onChange={handleInput}/>
+       <input type="text" placeholder='search here...' onChange={handleInput} onKeyPress={(e) => e.key === 'Enter' && search()}/>
        <select onChange={handleKey}>
          <option value="flutter">Flutter</option>
          <option value="react js"> React js</option>
