@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smartsearch/static/css/main.79210f2f.css",
+    "main.js": "/smartsearch/static/js/main.90b8796d.js",
+    "index.html": "/smartsearch/index.html",
+    "main.79210f2f.css.map": "/smartsearch/static/css/main.79210f2f.css.map",
+    "main.90b8796d.js.map": "/smartsearch/static/js/main.90b8796d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79210f2f.css",
+    "static/js/main.90b8796d.js"
+  ]
+}
