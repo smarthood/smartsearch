@@ -29,7 +29,7 @@ height: 0;
 border-style: solid;
 border-width: 200px 0 0 1000px;
 border-color: transparent transparent transparent #007bff;
-position: absolute;
+position: fixed;
 bottom: 0;
 }
 .design .tri2{
@@ -38,7 +38,7 @@ bottom: 0;
   border-style: solid;
   border-width: 0 0 200px 400px;
   border-color: transparent transparent #ffffff transparent;
-position: absolute;
+position: fixed;
 bottom: 0;
 right: 0;
 }
